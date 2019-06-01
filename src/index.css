@@ -1,0 +1,113 @@
+*:focus{
+  outline: none;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 50px;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  background-color: rgba(8, 19, 158,0.8);
+  z-index: 2;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.search {
+  z-index: 1;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+}
+
+.search-field {
+  width: 320px;
+  padding: 5px;
+}
+
+.location-list {
+  padding: 0;
+  margin: 5px;
+  overflow: auto;
+}
+
+.search-input {
+  padding: 5px 10px;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 278px;
+  outline: 0;
+  border-radius: 8px 8px 0 0;
+  border:1px  rgba(8, 19, 158,0.7) solid;
+  height: 25px;
+}
+
+.place {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 5px;
+  -webkit-transition: background-color 500ms;
+  -o-transition: background-color 500ms;
+  transition: background-color 500ms;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.place:hover {
+  color: rgb(8, 19, 158);
+  background-color: rgba(255, 255, 255,0.7);
+}
+
+.location-item {
+  padding: 10px;
+  margin: 0;
+  background-color: #fff;
+  list-style-type: none;
+  text-align: center;
+  border: solid green 1px;
+}
+
+.location-item:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.search-area {
+  position: absolute;
+  max-height: 270px;
+  width: 300px;
+  left: 4%;
+  top: 65px;
+  z-index: 2;
+  background-color: rgba(8, 19, 158,0.7);
+  border-radius: 8px;
+}
+
+
+.box {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.box:hover {
+  background-color: #269abc;
+  color: white;
+}
+
+.button {
+  text-align: center;
+  padding: 5px;
+  background-color: white;
+  border: 1px darkgrey solid;
+  cursor: pointer;
+  width: 334px;
+}

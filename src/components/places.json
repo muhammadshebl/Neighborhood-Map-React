@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Cairo Festival City\n",
+    "type": "Mall",
+    "latitude": 30.0270224,
+    "longitude": 31.3942907
+  },
+  {
+    "name": "El-Mosheer Ahmed Ismail Street",
+    "type": "Road",
+    "latitude": 30.0997679,
+    "longitude": 31.3671735
+  },
+  {
+    "name": "city stars",
+    "type": "Mall",
+    "latitude":30.072979,
+    "longitude": 31.3438613
+  },
+  {
+    "name": "Carrefour - Maadi",
+    "type": "Supermarket",
+    "latitude": 29.982611,
+    "longitude": 31.3140365
+  },
+  {
+    "name": "El Ezaby Pharmacy",
+    "type": "Pharmacy",
+    "latitude": 30.0166539,
+    "longitude": 31.4097361
+  },
+  {
+    "name": "Starbucks Coffee",
+    "type": "Cafe",
+    "latitude": 30.0166527,
+    "longitude": 31.3944151
+  }
+]
